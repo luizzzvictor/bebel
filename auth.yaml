@@ -1,0 +1,17 @@
+# auth.yaml
+
+credentials:
+  usernames:
+    bebel:
+      email: usuario1@example.com
+      name: bebel
+      password: $2b$12$JYg42USClu4hduG1/AYVuee27LMe5sP0GlpDYcLflZQzZ.1tjD54G # Senha hash (será gerada posteriormente)    
+
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+
+pre-authorized:
+  emails:
+    - usuario3@example.com

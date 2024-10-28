@@ -1,0 +1,8 @@
+streamlit
+langchain
+openai
+PyPDF2
+langchain-community
+PyYAML
+dotenv
+streamlit-authenticator
