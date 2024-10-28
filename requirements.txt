@@ -4,5 +4,5 @@ openai
 PyPDF2
 langchain-community
 PyYAML
-dotenv
+python-dotenv
 streamlit-authenticator
