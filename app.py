@@ -5,7 +5,7 @@ import streamlit as st
 # Importações adicionais
 import yaml
 from dotenv import load_dotenv
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage  # Importar o tipo de mensagem
 from langchain.text_splitter import CharacterTextSplitter
 from PyPDF2 import PdfReader
